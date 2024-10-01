@@ -4,7 +4,7 @@ def call(String project, String ImageTag, String hubUser){
      docker image build -t ${hubUser}/${project}:latest .
     """
 }
-
+//test
 // def call(String aws_account_id, String region, String ecr_repoName){
     
 //     sh """
